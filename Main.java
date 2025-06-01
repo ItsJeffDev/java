@@ -1,4 +1,3 @@
-
 import java.util.*;
 public class Main {
     public static void main(String[] args){
@@ -23,10 +22,14 @@ public class Main {
          //Code!!!
 
         String[] unknown = {"   Hello, world!   "};
-        
+        List<String> list1 = new ArrayList<String>();
+
         for (String x : unknown){
-            if (unknown.toString().startsWith("Hello")){
-                System.out.println("work");
+            list1.add(x.trim());
+            if (x.startsWith("Hello")){
+                for (int i = 0; i < list1.size(); i++){
+                    list1.get()
+                }
             }
         }
     }
