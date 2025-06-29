@@ -8,5 +8,11 @@ public class Array {
 
         System.out.println(number_Name[0]);
 
+        String[] cars = {"BMW", "TOYOTA", "FERRARI"};
+
+        for (String x : cars){
+            System.out.println(x);
+        }
+    
     }
 }
